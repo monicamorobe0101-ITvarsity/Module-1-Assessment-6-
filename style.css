@@ -1,0 +1,196 @@
+.products img{
+    width:25%;
+}
+
+#menu{
+    width: 100%
+    height: 40px;
+    background-color: crimson;
+    padding-top: 12px;
+}
+
+#menu a{
+    color:aliceblue;
+    font-family: Century Gothic;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 200px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+    color: red;
+    background-color: white;
+}
+
+#menu:hover{
+    background-color: white;
+}
+
+h3{
+    font-family: Century Gothic;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-style: oblique;
+    background-color:antiquewhite;
+}
+
+table{
+    border-collapse: collapse;
+    border-width: 0px;
+    border-style:groove;
+     
+    width: 90%;
+}
+
+td{
+    font-family:monospace;
+    background-color: rgba(50,10,100,0.2);
+    border-bottom-style:inset;
+    border-bottom-color: burlywood;
+    color: crimson;
+    font-size:100%;
+    font-weight: 800;
+    border-collapse: collapse;
+}
+
+.td2{
+    font-family:monospace;
+    border-collapse: collapse;
+    background-color: rgba(50,10,100,0.2);
+    border-bottom-style:inset;
+    border-bottom-color: burlywood;
+    color:black;
+    font-size: 10;
+    font-weight: bold;
+    text-align:right;
+}
+
+button{
+     background-color: darksalmon;
+    border-color: red;
+    width: 20%;
+    height:20%;
+    border-size: 1px;
+    color: white;
+    border-bottom-left-radius: 2px; 
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-weight: 800;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+ 
+.td3{
+   font-family:monospace;
+    border-collapse: collapse;
+    background-color: white;
+    border-bottom-style:inset;
+    border-bottom-color: burlywood;
+    color:black;
+    font-size: 10;
+    font-weight: bold;
+    text-align:right;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: bisque;
+}
+
+p{
+    font-family: Century Gothic;
+    text-align: center;
+    color: red;
+}
+
+h2{
+    color: white;
+    background-color: red;
+}
+
+.t4{
+    background-color: red;
+    color: white;
+}
+
+* {box-sizing: border-box;}
+
+.enquiry {
+  background-color: white;
+  color: #CE1127;
+  padding: 16px 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 3px;
+  height: 115px;
+  width: 400px;
+  font-weight: 1000;
+  font-size: 20px;
+  border-color: red;
+  border-width: 4px;
+}
+
+.enquiry:hover{
+color:black;
+background-color: red;
+border-color: black;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 80px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: red;
+  outline: none;
+  color: white;
+}
+
+.form-container .btn {
+  background-color:red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

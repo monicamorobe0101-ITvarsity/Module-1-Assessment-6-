@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    <h1>  ☎️ &nbsp; Contact Us &nbsp; ☎️  </h1>
+    <p> You Can Contact Us On The Following Platforms:</p>
+    <hr color="bisque">
+    <center>
+    <table>
+    <tr>
+    <td id="t3" class="td3" width="500px"> 
+    <center>
+    <h2>TELEPHONE</h2>
+    <br> 
+    <image src="images/tel.png" width="20px"/>
+    </center>
+    </td>
+    <td id="t4" class="t4">
+    <center>
+    +011-452-7678(9)
+    </center>
+    </td>
+    </tr>
+    <tr>
+    <td id="t3" class="td3" width="500px"> 
+    <center>
+    <h2>EMAIL</h2>
+    <br> 
+    <image src="images/gmail.png" width="20px"/>
+        </center>
+        </td>
+        <td id="t4" class="t4">
+        <center>
+        AesthentialsByMo@gmail.com
+        </center>
+        </td>
+        </tr>
+        <tr>
+    <td id="t3" class="td3" width="500px"> 
+    <center>
+    <h2>FACEBOOK</h2>
+    <br> 
+    <image src="images/facebook.png" width="20px"/>
+        </center>
+        </td>
+        <td id="t4" class="t4">
+        <center>
+        AesthentialsByMo
+        </center>
+        </td>
+        </tr>
+        <tr>
+    <td id="t3" class="td3" width="500px"> 
+    <center>
+    <h2>TWITTER</h2>
+    <br> 
+    <image src="images/twitter.png" width="20px"/>
+        </center>
+        </td>
+        <td id="t4" class="t4">
+        <center>
+        AesthentialsByMo
+        </center>
+        </td>
+        </tr><tr>
+    <td id="t3" class="td3" width="500px"> 
+    <center>
+    <h2>INSTAGRAM</h2>
+    <br> 
+    <image src="images/insta.png" width="20px"/>
+        </center>
+        </td>
+        <td id="t4" class="t4">
+        <center>
+        AesthentialsByMo
+        </center>
+        </td>
+        </tr>
+        </table>
+    </center>
+   <button class="enquiry" onclick="openForm()">Click Here To Open Contact Form<br> >>></button>
+
+<div class="popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1><font color="red" size="6px" >General / Product Enquiries</font></h1>
+    
+	<label for="Name"><b><font size="5px" color="red">Name</font></b></label>
+    <input type="text" placeholder="Enter Your First Name" name="Name" required>	
+	
+	<label for="Surname"><b><font size="5px" color="red">Surname</font></b></label>
+    <input type="text" placeholder="Enter Your Last Name" name="Surname" required>
+    
+	<label for="email"><b><font size="5px" color="red">Email</font></b></label>
+    <input type="text" placeholder="Enter Your Email Address" name="email" required>
+
+    <label style="height: 100px;" for="Msg" ><b><font size="5px" color="red">Message</font></b></label>
+    <br><textarea placeholder="Enter Message/Enquiry " name="Msg" required></textarea>
+	
+   <button type="submit" class="btn" ><a href="tk.html">Submit</a></button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+    </body>
+</html>
